@@ -56,14 +56,10 @@ function initPhoneCountrySelect() {
     phoneCountrySelect.appendChild(option);
   });
 
-  const userRegion = (navigator.language || "en-IN").split("-")[1] || "IN";
-  const defaultCountry = COUNTRY_CODES.find(([iso]) => iso === userRegion)
-    ? userRegion
-    : "IN";
-
   const defaultOption = phoneCountrySelect.querySelector(
-    `option[value="${defaultCountry}"]`
+    'option[value="IN"]'
   );
+
   if (defaultOption) {
     defaultOption.defaultSelected = true;
     defaultOption.selected = true;
