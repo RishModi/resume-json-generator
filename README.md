@@ -241,21 +241,45 @@ Resume information and saved drafts are handled in your browser by this applicat
 
 New to open source? We'd love to have you contribute!
 
-Start with these beginner-friendly issues:
+Start by exploring issues labelled for community contributions:
 
-- [Good first issues](https://github.com/edulinkup-interns/resume-json-generator/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-- [Issues marked as help wanted](https://github.com/edulinkup-interns/resume-json-generator/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+- [Good First Issues](https://github.com/edulinkup-interns/resume-json-generator/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) – Beginner-friendly tasks suitable for first-time contributors.
+- [Help Wanted](https://github.com/edulinkup-interns/resume-json-generator/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) – Issues where the maintainers are looking for additional contributions.
 
-Please read the issue description and the [contribution guidelines](CONTRIBUTING.md) before starting work.
+### Before You Start
+
+1. Read the issue description carefully and understand the expected changes.
+2. Check whether the issue is already assigned or has an active pull request.
+3. Comment on the issue to discuss your proposed approach before starting work.
+4. Read the [contribution guidelines](CONTRIBUTING.md) and follow the project's workflow.
+5. Test your changes and submit a pull request with a clear description.
 
 ## Roadmap
 
-Here are the currently tracked improvements:
+This roadmap separates completed improvements from potential future enhancements. Future ideas are proposals and are not confirmed development commitments.
 
-- [ ] [Improve copy feedback and clipboard error handling](https://github.com/edulinkup-interns/resume-json-generator/issues/39)
+### Recently Completed
 
-The roadmap reflects open, tracked issues. New ideas and planned features can be proposed through GitHub Issues.
+- [x] [Improve copy feedback and clipboard error handling (#39)](https://github.com/edulinkup-interns/resume-json-generator/issues/39) – Consistent feedback for JSON and plain-text copying, with graceful clipboard failure handling. Completed in [PR #81](https://github.com/edulinkup-interns/resume-json-generator/pull/81).
 
+### Future Ideas
+
+The following improvements have been identified as possible areas for future development:
+
+**Resume Customization**
+- Resume templates and customization options.
+- Importing existing resume data.
+
+**Export and Integration**
+- PDF export alongside JSON downloads.
+- Additional export formats and integrations.
+
+**Storage and Accessibility**
+- Optional cloud storage and synchronization.
+- Improved accessibility and keyboard navigation.
+- More comprehensive JSON validation.
+
+Have another idea? Open a [GitHub Issue](https://github.com/edulinkup-interns/resume-json-generator/issues) to discuss a potential improvement.
 
 ## Contributing
 
