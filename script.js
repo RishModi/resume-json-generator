@@ -196,18 +196,6 @@ function updateCounter(textarea) {
   }
 }
 
-
-function formatCharCount(length) {
-  return `${length} ${length === 1 ? "character" : "characters"}`;
-}
-
-function updateCounter(textarea) {
-  const counter = textarea.nextElementSibling;
-  if (counter && counter.classList.contains("char-counter")) {
-    counter.textContent = formatCharCount(textarea.value.length);
-  }
-}
-
 function initCounter(textarea) {
   const existing = textarea.nextElementSibling;
 

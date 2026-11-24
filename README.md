@@ -209,8 +209,6 @@ The example is illustrative; fields are populated based on the information enter
 
 ## Project Structure
 
-## Project Structure
-
 ```
 resume-json-generator/
 ├── .github/         # GitHub configuration
